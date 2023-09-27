@@ -1,0 +1,32 @@
+
+namespace: mronconi
+name: ansible_eda
+version: 1.0.0
+readme: README.md
+authors:
+- Marco Ronconi <mronconi@redhat.com>
+description: Ansible collection to poll record from ServiceNow ITSM
+
+license:
+- GPL-2.0-or-later
+license_file: LICENSE
+
+tags:
+  - servicenow
+  - ansible
+  - eda
+
+dependencies: {}
+repository: http://example.com/repository
+documentation: http://docs.example.com
+homepage: http://example.com
+issues: http://example.com/issue/tracker
+
+build_ignore:
+  - molecule
+  - .github
+  - "*.tar.gz"
+  - "*.tgz"
+  - "*.zip"
+  - .venv
+
